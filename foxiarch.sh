@@ -15,6 +15,7 @@ lastpass-cli \
 code \
 docker \
 alacritty \
+gimp \
 nvidia-open \
 bumblebee \
 intel-compute-runtime \
