@@ -32,19 +32,3 @@ plasma \
 qt6 \
 sof-firmware \
 xorg \
-
-sleep 3
-
-# Clone, make, install yay from github
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-
-sleep 3
-
-# Install packages from the AUR
-yay -S --needed --noconfirm \
-    brave-bin \
-    piavpn-bin \
-    heroic-games-launcher-bin \
-    vmware-workstation \
