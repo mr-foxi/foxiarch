@@ -1,7 +1,7 @@
 pkgname=foxiarch
 pkgver=1.0
 pkgrel=1
-pkgdesc="Install script for Arch Linux setup"
+pkgdesc="Install scripts for Arch Linux setup"
 arch=('x86_64')
 url="https://github.com/mr-foxi/foxiarch"
 license=('GPL')
@@ -12,4 +12,5 @@ sha256sums=('SKIP')
 
 package() {
     install -Dm755 "$srcdir/$pkgname-$pkgver/foxiarch.sh" "$pkgdir/usr/bin/foxiarch.sh"
+    install -Dm755 "$srcdir/$pkgname-$pkgver/foxiaur.sh" "$pkgdir/usr/bin/foxiaur.sh"
 }
