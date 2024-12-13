@@ -7,6 +7,7 @@ sudo pacman -Syyu
 sudo pacman -S --needed --noconfirm \
 base-devel \
 git \
+wine \
 lutris \
 steam \
 openvpn \
@@ -43,7 +44,6 @@ sleep 3
 
 # Install packages from the AUR
 yay -S --needed --noconfirm \
-    wine-stable \
     brave-bin \
     piavpn-bin \
     heroic-games-launcher-bin \
