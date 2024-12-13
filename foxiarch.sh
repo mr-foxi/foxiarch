@@ -25,6 +25,7 @@ intel-oneapi-compiler-shared-runtime \
 thunderbird \
 man-db \
 bluez \
+pipewire-media-session
 pulseaudio-bluetooth \
 bluez-utils \
 scrcpy \
