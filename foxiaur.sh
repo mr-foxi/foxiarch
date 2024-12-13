@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update package list
+sudo pacman -Syyu
+
 # Clone, make, install yay from github
 git clone https://aur.archlinux.org/yay.git
 cd yay
