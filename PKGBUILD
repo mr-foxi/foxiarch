@@ -7,7 +7,7 @@ url="https://github.com/mr-foxi/foxiarch"
 license=('GPL')
 depends=('bash' 'git')
 makedepends=('base-devel')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/mr-foxi/foxiarch/archive/$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/mr-foxi/foxiarch/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')
 
 package() {
