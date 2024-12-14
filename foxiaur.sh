@@ -17,3 +17,5 @@ yay -S --needed --noconfirm \
     piavpn-bin \
     heroic-games-launcher-bin \
     vmware-workstation \
+    rpcs3 \
+    pcsx2 \
