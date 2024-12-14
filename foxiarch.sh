@@ -14,9 +14,10 @@ pipewire-pulse \
 # Bluetooth Drivers
 bluez \
 bluez-utils \
-# Desktop and Framework
+# Desktop, Framework, and Similar Drivers
 base-devel \
 git \
+openrazer-daemon \
 plasma \
 qt6 \
 sof-firmware \
