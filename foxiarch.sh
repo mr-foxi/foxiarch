@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update package list
-sudo pacman -Syyu
+sudo pacman -Syyu --needed --noconfirm
 
 # Install packages from the official repositories
 sudo pacman -S --needed --noconfirm \
