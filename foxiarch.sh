@@ -17,10 +17,13 @@ docker \
 alacritty \
 gimp \
 nvidia-open \
+opencl-nvidia \
+nvidia \
+nvidia-utils \ 
+lib32-nvidia-utils \
 bumblebee \
 intel-compute-runtime \
 intel-opencl-runtime \
-opencl-nvidia \
 intel-oneapi-compiler-shared-runtime \
 thunderbird \
 man-db \
