@@ -28,8 +28,6 @@ retroarch \
 # Gaming
 lutris \
 steam \
-# Hybrid Graphics Driver
-bumblebee \
 # Intel Drivers
 intel-compute-runtime \
 intel-media-driver \
