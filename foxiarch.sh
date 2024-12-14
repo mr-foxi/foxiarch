@@ -5,67 +5,56 @@ sudo pacman -Syyu --needed --noconfirm
 
 # Install packages from the official repositories
 sudo pacman -S --needed --noconfirm \
-# Gaming
-lutris \
-steam \
-# Tools
-openvpn \
-wine \
-lastpass-cli \
-code \
-docker \
-alacritty \
-gimp \
-kwallet \
-kwalletmanager \
-ktorrent \
-partitionmanager \
-thunderbird \
-man-db \
-scrcpy \
-# Nvidia Drivers
-nvidia \
-nvidia-open \
-opencl-nvidia \
-nvidia-utils \
-nvidia-settings \
-lib32-nvidia-utils \
-# Vulkan Drivers
-vulkan-icd-loader \
-lib32-vulkan-icd-loader \
-vulkan-tools \
-# Intel Drivers
-mesa intel-media-driver \
-lib32-mesa vulkan-intel lib32-vulkan-intel \
-intel-compute-runtime \
-intel-opencl-runtime \
-intel-oneapi-compiler-shared-runtime \
-# Hybrid Graphics Driver
-bumblebee \
-# Bluetooth Drivers
-bluez \
-bluez-utils \
-# Networking and Tools
-samba \
-remmina \
-freerdp \
-libvncserver \
-gtk-vnc \
-spice-gtk \
-# Emulation
-retroarch \
-dolphin-emu \
-ppsspp \
 # Audio Drivers
-pipewire-media-session \
 pipewire \
 pipewire-alsa \ 
 pipewire-jack \
+pipewire-media-session \
 pipewire-pulse \
+# Bluetooth Drivers
+bluez \
+bluez-utils \
 # Desktop and Framework
-plasma \
 base-devel \
 git \
+plasma \
 qt6 \
 sof-firmware \
 xorg \
+# Emulation
+dolphin-emu \
+ppsspp \
+retroarch \
+# Gaming
+lutris \
+steam \
+# Hybrid Graphics Driver
+bumblebee \
+# Intel Drivers
+intel-compute-runtime \
+intel-media-driver \
+intel-opencl-runtime \
+intel-oneapi-compiler-shared-runtime \
+lib32-mesa \
+mesa \
+# Networking and Tools
+freerdp \
+gtk-vnc \
+libvncserver \
+remmina \
+samba \
+spice-gtk \
+# Nvidia Drivers
+lib32-nvidia-utils \
+nvidia \
+nvidia-open \
+nvidia-settings \
+nvidia-utils \
+opencl-nvidia \
+# Tools
+alacritty \
+code \
+docker \
+gimp \
+kwallet \
+kwalletmanager
