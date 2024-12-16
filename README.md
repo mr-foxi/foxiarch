@@ -7,7 +7,7 @@ A small passion project designed to automate the installation of what I've deeme
 - [Introduction](#introduction)
 - [Features](#features)
 - [My Setup](#my-setup)
-- [Packages and Their Purposes](#packages-and-their-purposes)
+- [Packages](#packages)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,7 +19,6 @@ FoxiArch simplifies the process of setting up my Arch Linux system by automating
 While this setup is tailored to my specific needs, it might also be useful for someone with similar hardware.
 
 ## Features
-- **Hybrid Graphics**: Drivers for Intel onboard graphics and NVIDIA discrete GPU.
 - **Bluetooth**: Setup with Bluetooth drivers.
 - **Gaming**: Steam, Heroic Games Launcher (GOG, Epic Games, Amazon games), Lutris (BattleNet/World of Warcraft, and more).
 - **Password Management**: LastPass CLI for secure password management within terminal (for help: lpass -h)
@@ -30,7 +29,7 @@ While this setup is tailored to my specific needs, it might also be useful for s
 - **Remote Control**: scrcpy to display and control Android devices.
 - **Web Browsing**: Brave, a privacy focused browser.
 - **Virtual Machines**: VMware Workstation.
-- **Sound and Audio**: PulseAudio with JACK(professional low-latency audio) and Bluetooth support.
+- **Sound and Audio**: Various audio drivers and support.
 - **Firmware and Libraries**: Sound Open Firmware, Qt libraries, OpenCL runtime.
 
 ## My Setup
@@ -48,43 +47,58 @@ This script is specifically tailored for the following hardware and software con
 - **Kernel Version**: 6.12.4-arch1-1 (64-bit)
 - **Graphics Platform**: Wayland
 
-## Packages and Their Purposes
-Here is a list of all the packages included in the script, along with their main purposes:
+## Package List (other packages will be installed as dependencies for this core list)
+- **alacritty**: A cross-platform, GPU-accelerated terminal emulator.
+- **base-devel**: A group of essential tools for building and compiling software on Arch Linux.
+- **bluez**: The official Linux Bluetooth protocol stack.
+- **bluez-utils**: Development and debugging utilities for the Bluetooth protocol stack.
+- **code**: Visual Studio Code, a powerful, open-source code editor developed by Microsoft.
+- **docker**: An open platform for developing, shipping, and running applications inside containers.
+- **dolphin-emu**: An emulator for the Nintendo GameCube and Wii consoles.
+- **freerdp**: A free implementation of the Remote Desktop Protocol (RDP).
+- **gimp**: GNU Image Manipulation Program, a free and open-source raster graphics editor.
+- **gtk-vnc**: A VNC viewer widget for GTK, providing client-side APIs for the RFB protocol.
+- **intel-compute-runtime**: Intel's open-source compute runtime for OpenCL and Level Zero.
+- **intel-media-driver**: Intel's open-source media driver for VA-API.
+- **intel-opencl-runtime**: Intel's runtime for OpenCL applications.
+- **intel-oneapi-compiler-shared-runtime**: Shared runtime libraries for Intel's oneAPI compilers.
+- **kwallet**: KDE Wallet Manager, a tool to manage passwords and other sensitive data.
+- **kwalletmanager**: A GUI for managing KDE Wallets.
+- **lib32-mesa**: 32-bit version of the Mesa 3D Graphics Library.
+- **lib32-nvidia-utils**: 32-bit NVIDIA driver utilities.
+- **libvncserver**: A library to implement VNC server functionality.
+- **lutris**: An open gaming platform for Linux.
+- **mesa**: An open-source implementation of the OpenGL specification.
+- **nvidia**: NVIDIA proprietary drivers for Linux.
+- **nvidia-open**: Open-source kernel modules for NVIDIA GPUs.
+- **nvidia-settings**: A configuration tool for NVIDIA graphics cards.
+- **nvidia-utils**: NVIDIA driver utilities.
+- **opencl-nvidia**: NVIDIA's OpenCL runtime.
+- **openrazer-daemon**: A daemon to manage Razer peripherals on Linux.
+- **pipewire**: A server and user space API to handle multimedia pipelines.
+- **pipewire-alsa**: ALSA plugin for Pipewire.
+- **pipewire-jack**: JACK plugin for Pipewire.
+- **pipewire-media-session**: A session manager for Pipewire.
+- **pipewire-pulse**: PulseAudio replacement using Pipewire.
+- **plasma**: KDE Plasma desktop environment.
+- **ppsspp**: A PSP emulator.
+- **qt6**: The latest version of the Qt application framework.
+- **remmina**: A remote desktop client supporting multiple protocols.
+- **retroarch**: A frontend for emulators, game engines, and media players.
+- **samba**: A suite of programs to provide SMB/CIFS networking.
+- **sof-firmware**: Sound Open Firmware, a collection of firmware for audio DSPs.
+- **spice-gtk**: A GTK widget for SPICE clients.
+- **steam**: A digital distribution platform for video games.
+- **xorg**: The X.Org server, a display server for the X Window System.
 
-### Official Repositories
-- `base-devel`: Essential development tools.
-- `git`: Version control system.
-- `wine`: Compatibility layer for running Windows applications.
-- `lutris`: Open gaming platform for managing, installing, and running games.
-- `steam`: Steam client for gaming.
-- `openvpn`: Open source VPN software.
-- `lastpass-cli`: Command-line tool for LastPass password manager.
-- `code`: Visual Studio Code editor.
-- `docker`: Containerization platform.
-- `alacritty`: A modern terminal emulator.
-- `nvidia-open`: NVIDIA open-source graphics driver.
-- `bumblebee`: Optimus support for Linux to manage hybrid graphics.
-- `intel-compute-runtime`: Intel GPU compute runtime.
-- `intel-opencl-runtime`: Intel OpenCL runtime.
-- `opencl-nvidia`: OpenCL support for NVIDIA GPUs.
-- `intel-oneapi-compiler-shared-runtime`: Runtime for Intel oneAPI compilers.
-- `thunderbird`: Email client.
-- `man-db`: Manual page utilities.
-- `bluez`: Bluetooth protocol stack.
-- `pulseaudio-jack`: PulseAudio with JACK support for professional audio.
-- `pulseaudio-bluetooth`: Bluetooth module for PulseAudio.
-- `bluez-utils`: Bluetooth utilities.
-- `scrcpy`: Display and control Android devices.
-- `plasma`: KDE Plasma desktop environment.
-- `qt6`: Qt 6 libraries.
-- `sof-firmware`: Sound Open Firmware.
-- `xorg`: X.Org Server for graphical environments.
-
-### AUR Packages
-- `brave-bin`: Brave web browser.
-- `piavpn-bin`: Private Internet Access VPN client.
-- `heroic-games-launcher-bin`: Launcher for GOG, Epic Games, and Amazon games.
-- `vmware-workstation`: VMware Workstation for running virtual machines.
+### AUR Packages (Arch User Repository)
+- **brave-bin**: Brave Browser, a privacy-focused web browser with a built-in ad blocker.
+- **piavpn-bin**: Private Internet Access VPN client, providing secure and private internet access.
+- **heroic-games-launcher-bin**: An open-source game launcher for Epic Games, GOG, and Amazon Games.
+- **vmware-workstation**: A hosted hypervisor that allows users to run multiple virtual machines on a single physical machine.
+- **rpcs3**: An open-source PlayStation 3 emulator and debugger.
+- **pcsx2**: A free and open-source PlayStation 2 emulator.
+- **razercfg**: A configuration tool for Razer devices, providing both command-line and GUI interfaces.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
