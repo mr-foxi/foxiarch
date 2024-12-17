@@ -36,6 +36,7 @@ while true; do
         nvidia-utils \
         opencl-nvidia \
         openrazer-daemon \
+        open-vm-tools \
         pipewire \
         pipewire-alsa \
         pipewire-jack \
