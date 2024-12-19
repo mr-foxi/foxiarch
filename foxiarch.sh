@@ -10,12 +10,14 @@ while true; do
     if [ "$fast" == "y" ]; then
         sudo pacman -S --needed --noconfirm \
         alacritty \
+        arch-audit \
         base-devel \
         bluez \
         bluez-utils \
         code \
         docker \
         dolphin-emu \
+        firejail \
         freerdp \
         gimp \
         gtk-vnc \
@@ -29,6 +31,7 @@ while true; do
         lib32-nvidia-utils \
         libvncserver \
         lutris \
+        lynis \
         mesa \
         nvidia \
         nvidia-open \
@@ -51,6 +54,7 @@ while true; do
         sof-firmware \
         spice-gtk \
         steam \
+        ufw \
         xorg
         # End of $fast = y
         break
