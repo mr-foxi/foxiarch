@@ -15,6 +15,7 @@ while true; do
         bluez \
         bluez-utils \
         code \
+        discord \
         docker \
         dolphin-emu \
         firejail \
@@ -51,6 +52,7 @@ while true; do
         remmina \
         retroarch \
         samba \
+        signal-desktop \
         sof-firmware \
         spice-gtk \
         steam \
