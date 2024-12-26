@@ -18,5 +18,6 @@ yay -S --needed --noconfirm \
     heroic-games-launcher-bin \
     vmware-workstation \
     rpcs3 \
+    setserial \
     pcsx2 \
     razercfg \ # It is important to only have Mouse and not Mouse# listed in /etc/X11/xorg.conf | file to disable the current mouse settings >><< maybe only for x11
