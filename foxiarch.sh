@@ -4,24 +4,31 @@
 sudo pacman -Syyu --needed --noconfirm
 
 while true; do
-    echo "Do you want fast install? (y/n)"
+    echo "Do you want fast install? WARNING THIS HAS THE MOST UP-TO-DATE PKGLIST (y/n)"
     read fast
     # Install all packages from the official repositories
     if [ "$fast" == "y" ]; then
         sudo pacman -S --needed --noconfirm \
+        ark \
         alacritty \
         arch-audit \
+        arduino-ide \
         base-devel \
         bluez \
         bluez-utils \
+        blender \
         code \
         discord \
         docker \
         dolphin-emu \
+        element-desktop \
         firejail \
         freerdp \
         gimp \
+        gnuradio \
         gtk-vnc \
+        hackrf \
+        ida-free \
         intel-compute-runtime \
         intel-media-driver \
         intel-opencl-runtime \
@@ -34,6 +41,8 @@ while true; do
         lutris \
         lynis \
         mesa \
+        monero-gui \
+        nmap \
         nvidia \
         nvidia-open \
         nvidia-settings \
@@ -41,22 +50,27 @@ while true; do
         opencl-nvidia \
         openrazer-daemon \
         open-vm-tools \
+        partitionmanager \
         pipewire \
         pipewire-alsa \
         pipewire-jack \
         pipewire-media-session \
         pipewire-pulse \
         plasma \
+        prusa-slicer \
         ppsspp \
         qt6 \
         remmina \
         retroarch \
+        rpi-imager \
         samba \
         signal-desktop \
         sof-firmware \
         spice-gtk \
         steam \
         ufw \
+        wireshark-qt \
+        yukuake \
         xorg
         # End of $fast = y
         break
