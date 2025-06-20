@@ -14,6 +14,8 @@ sleep 1
 # Install packages from the AUR
 yay -S --needed --noconfirm \
     brave-bin \
+    burpsuite \
+    ledger-live-bin \
     piavpn-bin \
     heroic-games-launcher-bin \
     vmware-workstation \
@@ -21,3 +23,4 @@ yay -S --needed --noconfirm \
     setserial \
     pcsx2 \
     razercfg \ # It is important to only have Mouse and not Mouse# listed in /etc/X11/xorg.conf | file to disable the current mouse settings >><< maybe only for x11
+    yubico-authenticator
