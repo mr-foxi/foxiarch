@@ -19,6 +19,7 @@ FoxiArch simplifies the process of setting up my Arch Linux system by automating
 While this setup is tailored to my specific needs, it might also be useful for someone with similar hardware.
 
 ## Features
+- **Cyber Security Tools**: Tools such as Burpsuite and NMap.
 - **Bluetooth**: Setup with Bluetooth drivers.
 - **Gaming**: Steam, Heroic Games Launcher (GOG, Epic Games, Amazon games), Lutris (BattleNet/World of Warcraft, and more).
 - **Password Management**: LastPass CLI for secure password management within terminal (for help: lpass -h)
@@ -47,7 +48,7 @@ This script is specifically tailored for the following hardware and software con
 - **Kernel Version**: 6.12.4-arch1-1 (64-bit)
 - **Graphics Platform**: Wayland
 
-## Package List (other packages will be installed as dependencies for this core list)
+## Package List (other packages will be installed as dependencies for this core list) __OUTDATED LIST
 - **alacritty**: A cross-platform, GPU-accelerated terminal emulator.
 - **base-devel**: A group of essential tools for building and compiling software on Arch Linux.
 - **bluez**: The official Linux Bluetooth protocol stack.
